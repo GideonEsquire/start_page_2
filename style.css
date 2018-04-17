@@ -1,18 +1,19 @@
 body {
-  background-color: #282828;
+  background-color: #f2efdf;
   text-align: center;
 }
 
 h3 {
-  color: #ebdbb2;
-  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  font-family: 'Pacifico', cursive;
+  font-size: 24;
 }
 
 h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
-  color: #ebdbb2;
-  font-size: 90;
+  color: #ffffff;
+  font-size: 72;
   animation: swoosh 5000ms linear both;
 }
 
@@ -38,11 +39,13 @@ list {
 }
 
 .title {
+  display: inline-block;
   text-align: center;
-  width: 12em;
+  border-radius: 25px 25px 0px 0px;
+  width: 14em;
 }
 
-.title:hover {
+.all:hover {
   animation: onhover 750ms linear both;
 }
 
@@ -70,14 +73,76 @@ list {
   background-color: #98971a;
 }
 
-.links {
+.u-links {
+  border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #282828;
+  color: #cc241d;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
-  background-color: #ebdbb2;
-  width: 12em;
+  background-color: #ffffff;
+  width: 14em;
+  padding: 2px 0px;
+}
+
+.p-links {
+  border-radius: 0px 0px 25px 25px;
+  text-align: center;
+  color: #458588;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 14em;
+  padding: 2px 0px;
+}
+
+.r-links {
+  border-radius: 0px 0px 25px 25px;
+  text-align: center;
+  color: #cc241d;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 14em;
+  padding: 2px 0px;
+}
+
+.pr-links {
+  border-radius: 0px 0px 25px 25px;
+  text-align: center;
+  color: #689d6a;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 14em;
+  padding: 2px 0px;
+}
+
+.g-links {
+  border-radius: 0px 0px 25px 25px;
+  text-align: center;
+  color: #d65d0e;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 14em;
+  padding: 2px 0px;
+}
+
+.b-links {
+  border-radius: 0px 0px 25px 25px;
+  text-align: center;
+  color: #98971a;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 14em;
+  padding: 2px 0px;
 }
 
 @keyframes swoosh {
