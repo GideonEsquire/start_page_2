@@ -14,7 +14,7 @@ h1 {
   text-align: center;
   color: #ffffff;
   font-size: 72;
-  animation: swoosh 5000ms linear both;
+  /*animation: swoosh 5000ms linear both;*/
 }
 
 a {
