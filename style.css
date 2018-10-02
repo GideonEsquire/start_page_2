@@ -73,6 +73,14 @@ list {
   background-color: #98971a;
 }
 
+.google {
+  background-color: #98971a;
+}
+
+.linux {
+  background-color: #689d6a;
+}
+
 .u-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
@@ -125,6 +133,18 @@ list {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
   color: #d65d0e;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 14em;
+  padding: 2px 0px;
+}
+
+.go-links {
+  border-radius: 0px 0px 25px 25px;
+  text-align: center;
+  color: #98971a;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
@@ -196,4 +216,3 @@ list {
   90.69% { transform: matrix3d(1.999, 0, 0, 0, 0, 1.999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% { transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
-
