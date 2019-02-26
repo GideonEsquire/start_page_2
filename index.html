@@ -7,7 +7,11 @@
   </head>
   <body>
     <br>
-    <h1>Howdy Fella!</h1>
+    <h1>
+    <span id="day"></span>
+    <span id="num"></span>
+    </h1>
+    <br>
     <div class="all">
       <div class="title utilities"><h3>Utilities</h3></div>
       <div class="u-links">
@@ -26,9 +30,7 @@
         <a href="https://www.bofa.com"><p>bofa card</p></a>
         <a href="https://www.carmax.com"><p>car</p></a>
         <a href="https://www.geico.com"><p>insurance</p></a>
-        <a href="https://www.netflix.com"><p>netflix</p></a>
         <a href="https://www.amazon.com"><p>prime</p></a>
-        <a href="https://www.hulu.com"><p>hulu</p></a>
         <a href="https://www.fi.google.com"><p>phone</p></a>
       </div>
       </div>
@@ -41,16 +43,42 @@
       </div>
     </div>
     <div class="all">
-      <div class="title health"><h3>Gaming</h3></div>
+      <div class="title health"><h3>Health</h3></div>
       <div class="g-links">
         <a href="http://myfitnesspal.com/"><p>myfitnesspal</p></a>
       </div>
     </div>
     <div class="all">
-      <div class="title play"><h3>Play</h3></div>
+      <div class="title play"><h3>foo</h3></div>
       <div class="p-links">
-        <a href="procrastination.html"><p>procrastination</p></a>
+        <a href="http://google.com/"><p>bar</p></a>
       </div>
     </div>
+
+
+
+
+<script>
+function myFunction() {
+  var d = new Date();
+  var weekday = new Array(7);
+  weekday[0] = "Su";
+  weekday[1] = "Mo";
+  weekday[2] = "Tu";
+  weekday[3] = "We";
+  weekday[4] = "Th";
+  weekday[5] = "Fr";
+  weekday[6] = "Sa";
+
+  var n = weekday[d.getDay()];
+  var m = d.getDate();
+  document.getElementById("day").innerHTML = "~" + n;
+  document.getElementById("num").innerHTML = m.toString().padStart(2, '0') + "~";
+  
+}
+
+myFunction()
+</script>
+
  </body>
 </html>
