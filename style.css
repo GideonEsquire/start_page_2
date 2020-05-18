@@ -32,6 +32,7 @@ list {
   vertical-align: top;
   align-self: center;
   margin-left: 1em;
+  margin-top: 1em;
 }
 
 .all:nth-child(1) {
