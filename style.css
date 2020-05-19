@@ -6,7 +6,7 @@ body {
 h3 {
   color: #ffffff;
   font-family: 'Pacifico', cursive;
-  font-size: 24;
+  font-size: 30;
 }
 
 span {
@@ -14,7 +14,7 @@ span {
   text-align: center;
   color: #ffffff;
   font-size: 72;
-  /*animation: swoosh 5000ms linear both;*/
+  /* animation: swoosh 5000ms linear both; */
 }
 
 a {
@@ -31,8 +31,10 @@ list {
   display: inline-block;
   vertical-align: top;
   align-self: center;
-  margin-left: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   margin-top: 1em;
+  font-size: 20;
 }
 
 .all:nth-child(1) {
@@ -43,7 +45,7 @@ list {
   display: inline-block;
   text-align: center;
   border-radius: 25px 25px 0px 0px;
-  width: 14em;
+  width: 20em;
 }
 
 .all:hover {
@@ -90,7 +92,7 @@ list {
   text-decoration: none;
   font-weight: bold;
   background-color: #ffffff;
-  width: 14em;
+  width: 20em;
   padding: 2px 0px;
 }
 
@@ -102,7 +104,7 @@ list {
   text-decoration: none;
   font-weight: bold;
   background-color: #ffffff;
-  width: 14em;
+  width: 20em;
   padding: 2px 0px;
 }
 
@@ -114,7 +116,7 @@ list {
   text-decoration: none;
   font-weight: bold;
   background-color: #ffffff;
-  width: 14em;
+  width: 20em;
   padding: 2px 0px;
 }
 
@@ -126,7 +128,7 @@ list {
   text-decoration: none;
   font-weight: bold;
   background-color: #ffffff;
-  width: 14em;
+  width: 20em;
   padding: 2px 0px;
 }
 
@@ -138,7 +140,7 @@ list {
   text-decoration: none;
   font-weight: bold;
   background-color: #ffffff;
-  width: 14em;
+  width: 20em;
   padding: 2px 0px;
 }
 
@@ -150,7 +152,7 @@ list {
   text-decoration: none;
   font-weight: bold;
   background-color: #ffffff;
-  width: 14em;
+  width: 20em;
   padding: 2px 0px;
 }
 
@@ -162,7 +164,7 @@ list {
   text-decoration: none;
   font-weight: bold;
   background-color: #ffffff;
-  width: 14em;
+  width: 20em;
   padding: 2px 0px;
 }
 
