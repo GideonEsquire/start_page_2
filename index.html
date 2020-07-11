@@ -1,81 +1,119 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <html>
-  <head>
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <br>
-    <h1>
+
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <br>
+  <h1>
     <span id="day"></span>
     <span id="num"></span>
-    </h1>
-    <br>
-    <div class="all">
-      <div class="title utilities"><h3>Utilities</h3></div>
-      <div class="u-links">
-        <a href="https://drive.google.com/drive/my-drive"><p>drive</p></a>
-        <a href="https://calendar.google.com"><p>calendar</p></a>
-        <a href="https://todoist.com"><p>todoist</p></a>
-        <a href="https://gmail.com"><p>email</p></a>
-      </div>
+  </h1>
+  <br>
+  <div class="all">
+    <div class="title finances">
+      <h3>Finances</h3>
     </div>
-     <div class="all">
-      <div class="title bills"><h3>Bills</h3></div>
-      <div class="b-links">
-        <a href="https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en"><p>amazon card</p></a>
-        <a href="https://www.bankofamerica.com"><p>bofa card</p></a>
-        <a href="https://www.carmax.com"><p>car</p></a>
-        <a href="https://www.fi.google.com"><p>phone</p></a>
-      </div>
-      </div>
+    <div class="b-links">
+      <a href="https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en">
+        <p>amazon card</p>
+      </a>
+      <a href="https://www.bankofamerica.com">
+        <p>bofa</p>
+      </a>
+      <a href="https://www.discover.com">
+        <p>discover</p>
+      </a>
+      <a href="https://www.carmax.com">
+        <p>car</p>
+      </a>
+      <a href="https://www.fi.google.com">
+        <p>phone</p>
+      </a>
     </div>
-    <div class="all">
-      <div class="title programming"><h3>Programming</h3></div>
-      <div class="pr-links">
-        <a href="https://github.com/"><p>github</p></a>
-        <a href="http://stackoverflow.com/"><p>stack overflow</p></a>
-      </div>
+  </div>
+  <div class="all">
+    <div class="title utilities">
+      <h3>Utilities</h3>
     </div>
-    <div class="all">
-      <div class="title health"><h3>Health</h3></div>
-      <div class="g-links">
-        <a href="https://docs.google.com/spreadsheets/d/1LaTU4F94ELa2ykjob1roQDjv3NZV6W6J9fq66OM1F7o/edit#gid=1698576087"><p>cals & protein</p></a>
-        <a href="https://docs.google.com/spreadsheets/d/1cS-nbpHLvfqhmnaTZL8eE57cnuBQExQ-_eRyJ2QaXfY/edit#gid=419587979"><p>workout</p></a>
-      </div>
+    <div class="u-links">
+      <a href="https://drive.google.com/drive/my-drive">
+        <p>drive</p>
+      </a>
+      <a href="https://calendar.google.com">
+        <p>calendar</p>
+      </a>
+      <a href="https://todoist.com">
+        <p>todoist</p>
+      </a>
+      <a href="https://gmail.com">
+        <p>email</p>
+      </a>
     </div>
-    <!-- <div class="all"> -->
-      <!-- <div class="title play"><h3>foo</h3></div> -->
-      <!-- <div class="p-links"> -->
-        <!-- <a href="http://google.com/"><p>bar</p></a> -->
-      <!-- </div> -->
-    <!-- </div> -->
+  </div>
+  </div>
+  <div class="all">
+    <div class="title programming">
+      <h3>Programming</h3>
+    </div>
+    <div class="pr-links">
+      <a href="https://github.com/">
+        <p>github</p>
+      </a>
+      <a href="http://stackoverflow.com/">
+        <p>stack overflow</p>
+      </a>
+    </div>
+  </div>
+  <div class="all">
+    <div class="title health">
+      <h3>Health</h3>
+    </div>
+    <div class="g-links">
+      <a href="https://docs.google.com/spreadsheets/d/1LaTU4F94ELa2ykjob1roQDjv3NZV6W6J9fq66OM1F7o/edit#gid=1698576087">
+        <p>cals & protein</p>
+      </a>
+      <a href="https://docs.google.com/spreadsheets/d/1cS-nbpHLvfqhmnaTZL8eE57cnuBQExQ-_eRyJ2QaXfY/edit#gid=419587979">
+        <p>workout</p>
+      </a>
+    </div>
+  </div>
+  <!-- <div class="all"> -->
+  <!-- <div class="title play"><h3>foo</h3></div> -->
+  <!-- <div class="p-links"> -->
+  <!-- <a href="http://google.com/"><p>bar</p></a> -->
+  <!-- </div> -->
+  <!-- </div> -->
 
 
 
 
-<script>
-function myFunction() {
-  var d = new Date();
-  var weekday = new Array(7);
-  weekday[0] = "Su";
-  weekday[1] = "Mo";
-  weekday[2] = "Tu";
-  weekday[3] = "We";
-  weekday[4] = "Th";
-  weekday[5] = "Fr";
-  weekday[6] = "Sa";
+  <script>
+    function myFunction() {
+      var d = new Date();
+      var weekday = new Array(7);
+      weekday[0] = "Su";
+      weekday[1] = "Mo";
+      weekday[2] = "Tu";
+      weekday[3] = "We";
+      weekday[4] = "Th";
+      weekday[5] = "Fr";
+      weekday[6] = "Sa";
 
-  var n = weekday[d.getDay()];
-  var m = d.getDate();
-  document.getElementById("day").innerHTML = "~" + n;
-  document.getElementById("num").innerHTML = m.toString().padStart(2, '0') + "~";
-  
-}
+      var n = weekday[d.getDay()];
+      var m = d.getDate();
+      document.getElementById("day").innerHTML = "~" + n;
+      document.getElementById("num").innerHTML = m.toString().padStart(2, '0') + "~";
 
-myFunction()
-</script>
+    }
 
- </body>
+    myFunction()
+  </script>
+
+</body>
+
 </html>
