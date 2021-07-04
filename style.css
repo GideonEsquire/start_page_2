@@ -6,14 +6,14 @@ body {
 h3 {
   color: #ffffff;
   font-family: 'Pacifico', cursive;
-  font-size: 30;
+  font-size: 22;
 }
 
 span {
   font-family: 'Pacifico', cursive;
   text-align: center;
   color: #ffffff;
-  font-size: 72;
+  font-size: 60;
   /* animation: swoosh 5000ms linear both; */
 }
 
@@ -34,7 +34,7 @@ list {
   margin-left: 0.5em;
   margin-right: 0.5em;
   margin-top: 1em;
-  font-size: 20;
+  font-size: 14;
 }
 
 .all:nth-child(1) {
@@ -53,41 +53,41 @@ list {
 }
 
 .finances {
-  background-color: #cc241d;
+  background-color: #CD3F1C;
 }
 
 .play {
-  background-color: #458588;
+  background-color: #EF7512;
 }
 
 .reddit {
-  background-color: #458588;
+  background-color: #EF7512;
 }
 
 .programming {
-  background-color: #689d6a;
+  background-color: #1F766C;
 }
 
 .health {
-  background-color: #d65d0e;
+  background-color: #DCA721;
 }
 
 .utilities {
-  background-color: #98971a;
+  background-color: #EF7512;
 }
 
 .google {
-  background-color: #98971a;
+  background-color: #EF7512;
 }
 
 .linux {
-  background-color: #689d6a;
+  background-color: #1F766C;
 }
 
 .r-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #cc241d;
+  color: #CD3F1C;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
@@ -99,7 +99,7 @@ list {
 .p-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #458588;
+  color: #EF7512;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
@@ -111,7 +111,7 @@ list {
 .b-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #cc241d;
+  color: #CD3F1C;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
@@ -123,7 +123,7 @@ list {
 .pr-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #689d6a;
+  color: #1F766C;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
@@ -135,7 +135,7 @@ list {
 .g-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #d65d0e;
+  color: #DCA721;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
@@ -147,7 +147,7 @@ list {
 .go-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #98971a;
+  color: #EF7512;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
@@ -159,7 +159,7 @@ list {
 .u-links {
   border-radius: 0px 0px 25px 25px;
   text-align: center;
-  color: #98971a;
+  color: #EF7512;
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   font-weight: bold;
